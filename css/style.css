@@ -5,12 +5,11 @@
     --two-color:  #757575;
     --three-color: #F5F4FA;
     --main-btn-color: #2196F3;
+    --main-bg-color: #2F303A;
 } 
 
 body {
     font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.14;
     color: var(--main-color);
@@ -36,7 +35,6 @@ button {
 
 .logo {
     font-family: 'Raleway', sans-serif;
-    font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     color: var(--main-btn-color);
@@ -48,6 +46,7 @@ button {
   
 .nav-link {
     font-weight: 500;
+    line-height: 1.14;
     letter-spacing: 0.02em;
 }
 .nav-link:hover {
@@ -57,12 +56,21 @@ button {
 
 .contact-link {
     font-weight: 500;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--two-color);
 }
 
 .contact-link:hover, .contact-link:focus {
     color: var(--main-btn-color);
+}
+
+.current {
+    color: var(--main-btn-color);
+}
+
+.hero {
+    background-color: var(--main-bg-color);
 }
 
 .hero-title {
@@ -99,10 +107,13 @@ button {
     border-color: var(--main-btn-color);
 }
 
+.visually-hidden {
+    visibility: hidden;
+}
+
 
 .work-title {
     font-size: 14px;
-    font-weight: 700;
     text-transform: uppercase;
 }
 
@@ -111,8 +122,7 @@ button {
     color: var(--two-color);
 }
 
-.team-title {
-    font-weight: 700;
+.section-title {
     font-size: 36px;
     line-height: 1.17;
 }
@@ -130,6 +140,7 @@ button {
 
 .address {
     line-height: 1.71;
+    font-style: normal;
     color: var(--second-color);
 }
 
@@ -142,6 +153,11 @@ button {
     background-color: var(--three-color);
     border-color: var(--three-color);
     border-radius: 4px;
+}
+
+.current-btn {
+    color: var(--second-color);
+    background-color: var(--main-btn-color);
 }
 
 .total-btn {
@@ -167,4 +183,19 @@ button {
     font-size: 16px;
     line-height: 1.875;
     color: var(--two-color);
+}
+
+.footer {
+    background-color: var(--main-bg-color);
+}
+
+.logo-footer {
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--main-btn-color);
+}
+
+.logo-footer > span {
+    color: var(--second-color);
 }
