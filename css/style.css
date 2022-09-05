@@ -41,6 +41,10 @@ button {
     cursor: pointer;
 }
 
+address {
+    font-style: normal;
+}
+
 .container {
     width: 1200px;
     padding-left: 15px;
@@ -270,18 +274,21 @@ button {
     background-color: var(--main-bg-color);    
 }
 
-.address {
+address > ul > li:first-child {
     margin-top: 20px;
-    line-height: 1.71;
-    font-style: normal;
-    color: var(--second-color);
 }
+
+address > ul > li:not(:last-child) {
+    margin-bottom: 9px;
+}
+
 
 .logo-footer {
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
     line-height: 1.19;
     color: var(--main-btn-color);
+    
 }
 
 .logo-footer > span {
@@ -292,7 +299,9 @@ button {
     margin-top: 9px;    
 }
 
-
+.adr-color {
+    color: var(--second-color);
+}
 
 /*   portfolio  - main */
 
