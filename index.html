@@ -16,30 +16,33 @@
   <body>
     <!--шапка-->
     <header class="header">
-      <nav class="nav-menu container">
-        <a class="logo" href="./index.html">Web<span>Studio</span></a>
-        <ul class="nav-links">
-          <li class="item">
-            <a class="nav-link current" href="./index.html">Студія</a>
-          </li>
-          <li class="item">
-            <a class="nav-link" href="./portfolio.html">Портфоліо</a>
-          </li>
-          <li class="item"><a class="nav-link" href="#">Контакти</a></li>
-        </ul>
-        <ul class="contact-links">
-          <li class="item">
-            <a class="contact-link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li class="item">
-            <a class="contact-link" href="tel:+380961111111"
-              >+38 096 111 11 11</a
-            >
-          </li>
-        </ul>
-      </nav>
+      <div class="container">
+        <nav class="nav-menu">
+          <a class="logo" href="./index.html">Web<span>Studio</span></a>
+          <ul class="nav-links">
+            <li class="item">
+              <a class="nav-link current" href="./index.html">Студія</a>
+            </li>
+            <li class="item">
+              <a class="nav-link" href="./portfolio.html">Портфоліо</a>
+            </li>
+            <li class="item"><a class="nav-link" href="#">Контакти</a></li>
+          </ul>
+        </nav>
+          <ul class="contact-links">
+            <li class="item">
+              <a class="contact-link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="item">
+              <a class="contact-link" href="tel:+380961111111"
+                >+38 096 111 11 11</a
+              >
+            </li>
+          </ul>
+        
+      </div>
     </header>
     <!--основна частина-->
     <main>
@@ -87,32 +90,31 @@
       </section>
       <section class="work2">
         <div class="container">
-        <h2 class="section-title">Чим ми займаємося</h2>
-        <ul class="work-images">
-          <li>
-            <img
-              src="./images/img1_sec2.jpg"
-              alt="крупний план-зображення-програміст-працюючий-його-робочий-офіс"
-              width="370"
-            />
-          </li>
-          <li>
-            <img
-              src="./images/img2_sec2.jpg"
-              alt="веб-інтерфейс-дизайнери-розробляють-додаток-смартфони-команда-творці-працює-інтерфейс-мобільні телефони"
-              width="370"
-            />
-          </li>
-          <li>
-            <img
-              src="./images/img3_sec2.jpg"
-              alt="креативний-художник-веб-дизайн-з-робочим-колір-графічним-планшетом"
-              width="370"
-            />
-          </li>
-        </ul>
-    </div>
-    
+          <h2 class="section-title">Чим ми займаємося</h2>
+          <ul class="work-images">
+            <li>
+              <img
+                src="./images/img1_sec2.jpg"
+                alt="крупний план-зображення-програміст-працюючий-його-робочий-офіс"
+                width="370"
+              />
+            </li>
+            <li>
+              <img
+                src="./images/img2_sec2.jpg"
+                alt="веб-інтерфейс-дизайнери-розробляють-додаток-смартфони-команда-творці-працює-інтерфейс-мобільні телефони"
+                width="370"
+              />
+            </li>
+            <li>
+              <img
+                src="./images/img3_sec2.jpg"
+                alt="креативний-художник-веб-дизайн-з-робочим-колір-графічним-планшетом"
+                width="370"
+              />
+            </li>
+          </ul>
+        </div>
       </section>
 
       <section class="team">
@@ -125,8 +127,10 @@
                 alt="photo of a man"
                 width="270"
               />
-              <h3 class="team-name">Ігор Дем'яненко</h3>
+              <div class="team-card">
+                <h3 class="team-name">Ігор Дем'яненко</h3>
               <p class="team-position">Product Designer</p>
+              </div>
             </li>
 
             <li>
@@ -135,9 +139,10 @@
                 alt="photo of a women"
                 width="270"
               />
+              <div class="team-card">
               <h3 class="team-name">Ольга Рєпіна</h3>
               <p class="team-position">Frontend Developer</p>
-            </li>
+            </div></li>
 
             <li>
               <img
@@ -145,19 +150,21 @@
                 alt="photo of a man"
                 width="270"
               />
+              <div class="team-card">
               <h3 class="team-name">Микола Тарасов</h3>
               <p class="team-position">Marketing</p>
-            </li>
-
+            
+</div></li>
             <li>
               <img
                 src="./images/img4_sec3.jpg"
                 alt="photo of a man"
                 width="270"
               />
+              <div class="team-card">
               <h3 class="team-name">Михайло Єрмаков</h3>
               <p class="team-position">UI Designer</p>
-            </li>
+            </div></li>
           </ul>
         </div>
       </section>
