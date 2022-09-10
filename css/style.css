@@ -72,7 +72,7 @@ img {
   margin-right: 93px;
 }
 
-.logo>span {
+.logo > span {
   color: var(--one-color);
 }
 
@@ -211,11 +211,11 @@ img {
   display: flex;
 }
 
-.work-center>li {
+.work-center > li {
   width: 270px;
 }
 
-.work-center>li:not(:last-child) {
+.work-center > li:not(:last-child) {
   margin-left: 30px;
 }
 
@@ -241,7 +241,7 @@ img {
   display: flex;
 }
 
-.work-images>li:not(:last-child) {
+.work-images > li:not(:last-child) {
   margin-right: 30px;
   margin-bottom: 94px;
 }
@@ -257,7 +257,7 @@ img {
   display: flex;
 }
 
-.team-cards>li {
+.team-cards > li {
   text-align: center;
   width: 270px;
   background-color: var(--second-color);
@@ -266,7 +266,7 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-cards>li:not(:last-child) {
+.team-cards > li:not(:last-child) {
   margin-right: 30px;
 }
 
@@ -298,7 +298,7 @@ address {
   margin-top: 20px;
 }
 
-address>ul>li:not(:last-child) {
+address > ul > li:not(:last-child) {
   margin-bottom: 9px;
 }
 
@@ -313,11 +313,11 @@ address>ul>li:not(:last-child) {
   font-weight: 400;
 }
 
-.logo-footer>span {
+.logo-footer > span {
   color: var(--second-color);
 }
 
-.footer>.container>ul>li {
+.footer > .container > ul > li {
   margin-top: 9px;
 }
 
@@ -337,7 +337,7 @@ address>ul>li:not(:last-child) {
   justify-content: center;
 }
 
-.projects-btn>li:not(:last-child) {
+.projects-btn > li:not(:last-child) {
   margin-right: 8px;
 }
 
@@ -380,12 +380,13 @@ address>ul>li:not(:last-child) {
 .project-card {
   width: calc((100% - 90px) / 3);
   background-color: var(--second-color);
-
 }
 
 .card-item {
   padding: 20px 24px;
-  border: 1px solid var(--line-color);
+  border-left: 1px solid var(--line-color);
+  border-right: 1px solid var(--line-color);
+  border-bottom: 1px solid var(--line-color);
 }
 
 .project-title {
